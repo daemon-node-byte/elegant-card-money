@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Sofadi One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-whisper {
+  font-family: "Whisper", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
