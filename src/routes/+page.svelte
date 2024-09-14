@@ -10,7 +10,8 @@
     </h1>
     <p class="text-primary-blue-300 text-center text-lg cursor-pointer">For all your spiritual and occult needs.</p>
     <div class='wrapper mt-10'>
-      <button on:click={handleClick} class="text-xl bg-gray-400 px-4 py-2 border rounded button hover:bg-primary-green-500">enter</button>
+      <button on:click={handleClick} class="text-xl bg-gray-400 px-4 py-2 border rounded button hover:bg-primary-green-500">Tarot</button>
+      <button on:click={handleClick} class="text-xl bg-gray-400 px-4 py-2 border rounded button hover:bg-primary-green-500" disabled>Astrology</button>
     </div>
   </div>  
 </section>
@@ -31,6 +32,11 @@
   
   .button:active {
     transform: translate(2px, 3px)
+  }
+
+  button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
   }
 
 </style>
