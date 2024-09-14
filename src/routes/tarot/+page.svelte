@@ -34,7 +34,7 @@
   @apply bg-neutral-grey-950
  }
  .background {
-  background-image: url('images/background_2.webp');
+  background-image: url('/images/background_2.webp');
   background-size: cover;
   background-position: center;
  }
