@@ -16,9 +16,9 @@
   </div>  
 </section>
 
-<style>
+<style lang='postcss'>
   .back-img {
-    background: url('images/background_1.webp');
+    background: url('/images/background_1.webp');
     background-size: cover;
     background-position: center;
     z-index: 0;
