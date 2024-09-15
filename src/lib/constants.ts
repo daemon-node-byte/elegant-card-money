@@ -1,0 +1,1 @@
+export const TAROT_API = 'https://tarotapi.dev/api/v1';
